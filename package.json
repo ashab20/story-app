@@ -1,0 +1,30 @@
+{
+  "name": "story-app",
+  "version": "1.0.0",
+  "description": "this is a story app whice can be collect user stories",
+  "main": "app.js",
+  "author": "Ashab",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "dependencies": {
+    "connect-mongo": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "yarn": "^1.22.11"
+  }
+}
